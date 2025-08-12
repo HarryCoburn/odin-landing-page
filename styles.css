@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.hero, .footer, .header {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #e5e7eb;    
+}
+
+.cta, button {
+    background-color: #3882f6
+}
