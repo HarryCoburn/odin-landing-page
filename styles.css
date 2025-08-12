@@ -46,11 +46,13 @@ a {
     font-size: 48px;
     color: #f8faf8;
     font-weight: 900;
+    margin: 0;
 }
 
 .hero-secondary-text, .header-link, .cta-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 12px;
 }
 
 .image-body-header {
@@ -76,6 +78,9 @@ a {
     border: none;
 }
 
+.hero-image {
+    height: 300px;
+}
 
 
 
@@ -102,13 +107,19 @@ a {
 .header-bottom {
     padding-top: 72px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;    
 }
 
-.hero-left {
+.hero-left {    
     width: 500px;
 }
 
+.hero-right {
+    flex-shrink: 1;
+    min-width: 0;
+}
 
 
 .image-body {
