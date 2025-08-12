@@ -46,7 +46,7 @@ a {
     font-size: 48px;
     color: #f8faf8;
     font-weight: 900;
-    margin: 0;
+    
 }
 
 .hero-secondary-text, .header-link, .cta-text {
@@ -58,8 +58,7 @@ a {
 .image-body-header {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 900;
-    padding-bottom: 32px;
+    font-weight: 900;   
 }
 
 .cta-btn {
@@ -73,10 +72,36 @@ a {
 
 .hero-btn {
     color: #f9faf8;
-    border-radius: 10px;
-    padding: 10px 36px;
+    border-radius: 10px;    
     font-weight: 700; 
     border: none;
+}
+
+.quote-cite {
+    font-weight: 900;
+    align-self: flex-end;    
+}
+
+/* Margins and padding */
+
+.hero-main-text {
+    margin: 0;
+}
+
+.hero-secondary-text, .header-link, .cta-text {
+    margin-top: 12px;    
+}
+
+.image-body-header {    
+    padding-bottom: 32px;
+}
+
+.cta-btn {
+    padding: 5px 36px; 
+}
+
+.hero-btn {
+    padding: 10px 36px;
 }
 
 .hero-image {
@@ -84,10 +109,9 @@ a {
 }
 
 .quote-cite {
-    font-weight: 900;
-    align-self: flex-end;
     padding-right: 32px;
 }
+
 
 
 /* Flexbox Settings */
@@ -140,17 +164,20 @@ a {
     flex-direction: column;
     align-items: center;
     padding-top: 36px;
-    padding-bottom: 72px;
+    padding-bottom: 128px;
+    text-align: center;
 }
 
 .image-item-row {
     display: flex;
-    gap: 104px;   
+    justify-content: center;
+    gap: 52px;   
         
 }
 
 .image-item {
-    width: 180px;
+    width: 200px;
+    height: 200px;
     text-align: center;    
 }
 
@@ -159,7 +186,13 @@ a {
     border-radius: 18px;
 }
 
+.image-cap {
+    max-width: 200px;
+}
+
 .quote-block {
+    display: flex;
+    justify-content: center;    
     padding: 48px 256px;
     
 }
@@ -167,7 +200,8 @@ a {
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: space-between;    
+    width: 1080px;
 }
 
 .cta-area {
@@ -184,6 +218,7 @@ a {
     gap: 200px;
     padding: 48px 0;    
 }
+
 
 .cta-text {
     margin-top: 0px;
