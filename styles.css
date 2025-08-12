@@ -31,7 +31,7 @@ a {
     background-color: #e5e7eb;    
 }
 
-.quote {
+.quote-text {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
@@ -154,15 +154,14 @@ a {
 }
 
 .quote-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 128px 256px;
-
+    padding: 48px 256px;
+    
 }
 
 .quote {
-    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .cta-area {
