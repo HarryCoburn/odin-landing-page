@@ -59,6 +59,7 @@ a {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding-bottom: 32px;
 }
 
 .cta-btn {
@@ -166,18 +167,21 @@ a {
 
 .cta-area {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;    
 }
 
 .cta {
     display: flex;
-    max-width: 1200px;
+    justify-content: space-around;    
     border-radius: 10px;
-    margin: 72px;
-    justify-content: space-around;
-    gap: 144px;
-    padding: 48px 72px;
+    margin: 72px 256px;
+    flex: 1;
+    gap: 200px;
+    padding: 48px 0;    
+}
+
+.cta-text {
+    margin-top: 0px;
 }
 
 .footer {
