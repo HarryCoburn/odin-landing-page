@@ -159,6 +159,9 @@ a {
     min-width: 0;
 }
 
+
+/* Information section */
+
 .image-body {
     display: flex;
     flex-direction: column;
@@ -190,30 +193,35 @@ a {
     max-width: 200px;
 }
 
+/* Quote section */
+
 .quote-block {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    align-items: center;    
     padding: 48px 256px;
     
 }
 
 .quote {
     display: flex;
-    flex-direction: column;
-    align-items: space-between;    
-    width: 1080px;
+    flex-direction: column;    
+    width: 952px;
 }
+
+/* CTA section */
 
 .cta-area {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    align-items: center;    
 }
 
 .cta {
     display: flex;
     justify-content: space-around;    
     border-radius: 10px;
-    margin: 72px 256px;
+    margin: 72px 0;
     width: 1200px;
     gap: 200px;
     padding: 48px 0;    
@@ -223,6 +231,8 @@ a {
 .cta-text {
     margin-top: 0px;
 }
+
+/* Footer */
 
 .footer {
     display: flex;
