@@ -22,7 +22,7 @@ a {
     background-color: #1F2937;
 }
 
-.logo {
+.logo, .cta-header {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -48,7 +48,7 @@ a {
     font-weight: 900;
 }
 
-.hero-secondary-text, .header-link {
+.hero-secondary-text, .header-link, .cta-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -59,16 +59,31 @@ a {
     font-weight: 900;
 }
 
-/* Widths */
+.cta-btn {
+    color: #f9faf8;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    border-style: solid;
+    padding: 5px 36px;
+    font-weight: 700;    
+}
+
+
 
 
 /* Flexbox Settings */
 
+/* Header */
 .header {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
-        
+    flex-direction: column;
+    justify-content: space-around;    
+    padding: 16px 256px;        
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-links {
@@ -76,11 +91,17 @@ a {
     gap: 24px;
 }
 
-.hero {
+.header-bottom {
     padding-top: 72px;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-between;    
 }
+
+.hero-left {
+    width: 500px;
+}
+
+
 
 .image-body {
     display: flex;
@@ -101,6 +122,22 @@ a {
 .info-image {
     border: 5px solid #3882f6;
     border-radius: 18px;
+}
+
+.cta-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    max-width: 1200px;
+    border-radius: 10px;
+    margin: 72px;
+    justify-content: space-around;
+    gap: 144px;
+    padding: 48px 72px;
 }
 
 .footer {
