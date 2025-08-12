@@ -102,3 +102,11 @@ a {
     border: 5px solid #3882f6;
     border-radius: 18px;
 }
+
+.footer {
+    display: flex;
+    padding: 32px;
+    color: #e5e7eb;    
+    align-items: center;
+    justify-content: center;
+}
