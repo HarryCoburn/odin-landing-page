@@ -1,9 +1,13 @@
 # odin-landing-page
 Landing Page project for The Odin Project. The purpose of the project is to take a landing page mockup and branding guidelines to create the form of a landing page. This is _not_ a responsive page or meant to be pixel perfect. The goal is to create something relatively close to the design.
 
+## Feedback from Odin Project Discord
+
+Danijel Gomola suggested fixing the hero image breaking out of the hero container and making the footer stick to the bottom on page scroll. "The Marquesse" said reponsiveness features will be covered in a later lesson.
+
 ## Image Credit
-Greek beach image - Nico Hartnauer
-Abalone - Anna Tarazevich
-Cowries - Karolina Grabowska
-Nautilus - Pixabay
-Coconuts - Mikhail Nilov
+- Greek beach image - Nico Hartnauer
+- Abalone - Anna Tarazevich
+- Cowries - Karolina Grabowska
+- Nautilus - Pixabay
+- Coconuts - Mikhail Nilov
